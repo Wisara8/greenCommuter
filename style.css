@@ -1,0 +1,159 @@
+html {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* header styles */
+
+header h1 {
+    background-color: white;
+    padding-left: 30px;
+    margin: 10px 20px;
+    border-style: solid;
+    border-width: 5px;
+}
+
+h2 {
+    color: gray;
+    text-align: center;
+    margin: 5px;
+}
+
+.subpage {
+    font-size: 25px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+sidebar {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.profile, .socialmedia {
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    height: 50%;
+    padding: 5px;
+}
+
+.profile {
+    border-radius: 10px;
+}
+
+.socialmedia {
+    margin-top: 10px;
+}
+
+.right {
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.center {
+    overflow: auto;
+    background-color: white;
+    width: 50%;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    flex-grow: 2;
+}
+
+sidebar, .right, .center {
+    margin: 5px 20px;
+    height: 500px;
+    padding: 10px;
+}
+
+.map-img, .profile-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border: dashed;
+}
+
+select, td, th {
+    font-family: 'Roboto', sans-serif;
+}
+
+.socialmedia {
+    position: relative;
+    text-align: center;
+}
+
+.center-img {
+    width: 100%;
+    height: 100%;
+}
+
+.ach-link {
+    padding: 20px;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+}
+
+.trophy-img {
+    width: 50px;
+    height: 50px;
+}
+
+a, a:hover {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.links {
+    position: relative;
+    top: 10px;
+    display: inline-block;
+}
+
+.links img {
+    width: 40px;
+    height: 40px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.links img:hover {
+    opacity: 1;
+}
